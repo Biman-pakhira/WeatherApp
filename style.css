@@ -1,0 +1,40 @@
+:root{
+    --background-color1: rgb(5, 38, 85);
+    --background-color2: rgb(0, 34, 82);
+    --alphabet-color: #ffffff;
+    --border-color: black;
+    --button-color: #1a73e8;
+}
+
+body{
+    height: 100%;
+    background-color: var(--background-color2);
+    color: var(--alphabet-color);
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+.main{
+    margin: 30px 20px 30px 20px;
+    /* border: 1px solid var(--border-color); */
+    padding: 50px;
+    border-radius: 10px;
+    width: 70%;
+    box-shadow: 10px 0px 30px 1px#000000;
+}
+#citySearch{
+    border: 1px solid var(--border-color);
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 25px;
+    width: 85%;
+    background-color: var(--background-color1);
+}
+button{
+    width: 10%;
+    height: 30px;
+    background-color: var(--button-color);
+    color: var(--alphabet-color);
+    border: none;
+    border-radius: 10px;
+}
