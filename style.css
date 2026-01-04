@@ -38,3 +38,10 @@ button{
     border: none;
     border-radius: 10px;
 }
+.sun, .airq{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 65px;
+}
