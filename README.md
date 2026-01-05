@@ -54,7 +54,7 @@ This project uses the [OpenWeatherMap API](https://openweathermap.org/api) to fe
 
 ## Screenshots 📸
 
-![Weather App Screenshot](screenshot.png)
+![Weather App Screenshot](Screenshot.png)
 
 ## Default City 🏙️
 
