@@ -5,6 +5,12 @@
     --border-color: black;
     --button-color: #1a73e8;
 }
+.main2{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 20px 20px 0px;
+    padding-left: 10px;
+}
 
 body{
     height: 100%;
@@ -17,10 +23,10 @@ body{
 .main{
     margin: 30px 20px 30px 20px;
     /* border: 1px solid var(--border-color); */
-    padding: 50px;
+    padding: 30px;
     border-radius: 10px;
     width: 70%;
-    box-shadow: 10px 0px 30px 1px#000000;
+    box-shadow: 0px 0px 40px 0px#000000;
 }
 #citySearch{
     border: 1px solid var(--border-color);
@@ -41,7 +47,12 @@ button{
 .sun, .airq{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 h1{
     font-size: 65px;
+}
+.details, .otherDetails {
+    padding: 0px 20px;
+
 }
